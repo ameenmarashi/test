@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publish Your Website with GitHub Pages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>How to Publish Your Website Using GitHub Pages</h1>
+    <p>Learn how to host your static website for free directly from your GitHub repository.</p>
+  </header>
+  <main>
+    <section>
+      <h2>What is GitHub Pages?</h2>
+      <p>GitHub Pages is a free service provided by GitHub that allows you to host static websites directly from your GitHub repository. It's a great way to publish personal portfolios, project documentation, or small web applications.</p>
+    </section>
+    <section>
+      <h2>What You'll Need</h2>
+      <ul>
+        <li>A GitHub account</li>
+        <li>A web browser</li>
+        <li>Basic knowledge of HTML and CSS</li>
+        <li>Git installed on your local machine (optional, but recommended for development)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Steps to Publish Your Website</h2>
+
+      <h3>Step 1: Create a New GitHub Repository</h3>
+      <p>Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository. Give it a descriptive name (e.g., <code>my-website</code>). You can choose to initialize it with a README, but it's not strictly necessary.</p>
+
+      <h3>Step 2: Create Your Website Files</h3>
+      <p>On your local machine, create a new folder for your project. Inside this folder, create your website files. At minimum, you'll need an <code>index.html</code> file. For example:</p>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;My Awesome Website&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, GitHub Pages!&lt;/h1&gt;
+  &lt;p&gt;This is my first website hosted on GitHub Pages.&lt;/p&gt;
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+      <p>You can also create a <code>style.css</code> and <code>script.js</code> if you want more complex styling and interactivity.</p>
+
+      <h3>Step 3: Push Your Files to GitHub</h3>
+      <p>Open your terminal or command prompt, navigate to your project folder, and initialize it as a Git repository (if you haven't already cloned an existing one):</p>
+      <pre><code>git init
+git add .
+git commit -m "Initial website files"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git push -u origin main
+</code></pre>
+      <p>Replace <code>YOUR_USERNAME</code> and <code>YOUR_REPOSITORY_NAME</code> with your actual GitHub username and repository name.</p>
+
+      <h3>Step 4: Enable GitHub Pages</h3>
+      <p>
+        <ol>
+          <li>Go to your repository on GitHub.</li>
+          <li>Click on the "Settings" tab.</li>
+          <li>In the left sidebar, click on "Pages".</li>
+          <li>Under "Build and deployment", for "Source", select "Deploy from a branch".</li>
+          <li>Under "Branch", select <code>main</code> (or <code>master</code> if that's what you used) and choose the <code>/root</code> folder.</li>
+          <li>Click "Save".</li>
+        </ol>
+      </p>
+      <p>GitHub will then deploy your website. This usually takes a few minutes.</p>
+
+      <h3>Step 5: Access Your Live Website</h3>
+      <p>After a few minutes, refresh the GitHub Pages section under "Settings > Pages". You should see a message indicating "Your site is published at <a href="https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/" target="_blank">https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/</a>". Click on the link to view your live website!</p>
+    </section>
+    <section>
+      <h2>Tips and Tricks</h2>
+      <ul>
+        <li>For user/organization pages (<code>YOUR_USERNAME.github.io</code>), create a repository named exactly <code>YOUR_USERNAME.github.io</code>. The content will be published directly from the <code>main</code> branch.</li>
+        <li>You can use a custom domain name with GitHub Pages.</li>
+        <li>GitHub Pages supports Jekyll for blogging and more complex site generation.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 GitHub Pages Guide</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
