@@ -1,4 +1,138 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F0EAD6; /* Light, warm, earthy background */
+  color: #333;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15); /* More vibrant shadow */
+}
+
+h1 {
+  text-align: center;
+  color: #A0522D; /* Richer brown */
+  margin-bottom: 30px;
+  font-size: 2.8em; /* Slightly larger heading */
+  letter-spacing: 1px;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 25px; /* Slightly increased gap */
+  flex-wrap: wrap;
+}
+
+#coffee-list {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px;
+  border-right: 1px solid #E5D5B8; /* Warmer border color */
+}
+
+#coffee-list h2 {
+  color: #A0522D; /* Richer brown */
+  border-bottom: 2px solid #E5D5B8; /* Warmer border color */
+  padding-bottom: 10px;
+  margin-top: 0;
+  font-size: 1.6em;
+}
+
+#coffee-names {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#coffee-names li {
+  border-bottom: 1px solid #F0EAD6; /* Lighter, warmer border for list items */
+}
+
+#coffee-names li:last-child {
+  border-bottom: none;
+}
+
+#coffee-names li a {
+  display: block;
+  padding: 12px 15px; /* Slightly more padding */
+  text-decoration: none;
+  color: #555;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px; /* Slightly rounded link corners */
+}
+
+#coffee-names li a:hover,
+#coffee-names li a.active-link {
+  background-color: #FFF0E0; /* Light, warm hover background */
+  color: #A0522D; /* Richer brown for active/hover */
+  font-weight: bold;
+  transform: translateX(5px); /* Subtle hover effect */
+}
+
+#welcome-message, .coffee-detail-content {
+  flex: 2;
+  min-width: 350px;
+  padding: 15px;
+}
+
+.coffee-detail-content h2 {
+  color: #A0522D; /* Richer brown */
+  border-bottom: 2px solid #E5D5B8; /* Warmer border color */
+  padding-bottom: 10px;
+  margin-top: 0;
+  font-size: 1.6em;
+}
+
+.coffee-detail-content h3 {
+  color: #444;
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+.coffee-detail-content p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.coffee-detail-content ol {
+  list-style: decimal;
+  padding-left: 25px;
+  line-height: 1.7;
+}
+
+.coffee-detail-content li {
+  margin-bottom: 10px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 25px; /* Increased margin */
+  padding: 12px 20px; /* More padding */
+  background-color: #D2691E; /* Vibrant chocolate/orange */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px; /* More rounded */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.back-link:hover {
+  background-color: #E07B37; /* Slightly lighter on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+  #coffee-list {
+    border-right: none;
+    border-bottom: 1px solid #E5D5B8; /* Warmer border color */
+  }
 }
