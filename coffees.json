@@ -1,0 +1,72 @@
+[
+  {
+    "description" : "A concentrated coffee beverage brewed by forcing hot water under high pressure through finely ground coffee beans, forming a rich, dark crema on top.",
+    "id" : "espresso",
+    "name" : "Espresso",
+    "steps" : [
+      "Grind 7-9 grams of fresh coffee beans very finely (like powdered sugar).",
+      "Tamp the grounds evenly and firmly into the portafilter.",
+      "Insert the portafilter into the espresso machine's group head.",
+      "Start the shot, aiming for 25-30 seconds to extract 1-2 ounces (30-60ml) of liquid.",
+      "Serve immediately in a demitasse cup."
+    ]
+  },
+  {
+    "description" : "A popular coffee drink made with espresso and a generous amount of steamed milk, topped with a thin layer of microfoam. Known for its creamy texture.",
+    "id" : "latte",
+    "name" : "Latte",
+    "steps" : [
+      "Prepare one or two shots of espresso into a mug.",
+      "Steam 6-8 ounces (180-240ml) of cold milk until it reaches 140-150°F (60-65°C), creating smooth microfoam.",
+      "Gently swirl the steamed milk to integrate the foam.",
+      "Pour the steamed milk into the espresso, initially tilting the cup to combine, then straightening to create latte art if desired.",
+      "Serve warm."
+    ]
+  },
+  {
+    "description" : "An espresso-based coffee drink with equal parts espresso, steamed milk, and foamed milk. It has a distinct layered appearance and a stronger coffee taste than a latte.",
+    "id" : "cappuccino",
+    "name" : "Cappuccino",
+    "steps" : [
+      "Prepare one or two shots of espresso into a cappuccino cup.",
+      "Steam 5-6 ounces (150-180ml) of cold milk until it reaches 140-150°F (60-65°C), creating more foam than for a latte.",
+      "Gently swirl the steamed milk and tap the pitcher to remove large bubbles.",
+      "Pour the steamed milk into the espresso, aiming for a roughly equal ratio of espresso, liquid milk, and foam on top.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "description" : "A coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, brewed coffee. It's lighter than a traditional espresso.",
+    "id" : "americano",
+    "name" : "Americano",
+    "steps" : [
+      "Heat water to near boiling (around 200°F \/ 93°C).",
+      "Prepare one or two shots of espresso into a mug.",
+      "Pour 4-6 ounces (120-180ml) of hot water into the mug, on top of the espresso.",
+      "Serve hot, optionally with milk or sugar."
+    ]
+  },
+  {
+    "description" : "An espresso 'marked' or 'stained' with a small amount of foamed milk. It's a stronger coffee flavor than a cappuccino or latte, highlighting the espresso.",
+    "id" : "macchiato",
+    "name" : "Macchiato",
+    "steps" : [
+      "Prepare a single or double shot of espresso into a demitasse cup.",
+      "Steam a small amount of milk (about 2 ounces \/ 60ml) to create a thick, airy foam.",
+      "Spoon a dollop of the foamed milk directly onto the center of the espresso.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "description" : "A chocolate-flavored variant of a latte, made with espresso, steamed milk, and chocolate syrup or powder.",
+    "id" : "mocha",
+    "name" : "Mocha",
+    "steps" : [
+      "Add 1-2 tablespoons of chocolate syrup (or cocoa powder) to the bottom of a mug.",
+      "Prepare one or two shots of espresso directly into the mug, mixing with the chocolate.",
+      "Steam 6-8 ounces (180-240ml) of cold milk until it reaches 140-150°F (60-65°C), creating smooth microfoam.",
+      "Pour the steamed milk into the chocolate-espresso mixture.",
+      "Optionally top with whipped cream, chocolate shavings, or a drizzle of chocolate syrup."
+    ]
+  }
+]
