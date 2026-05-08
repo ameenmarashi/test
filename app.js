@@ -1,1 +1,1 @@
-console.log("GitHub Pages webapp ready.");
+console.log("Ready.");
