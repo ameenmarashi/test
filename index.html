@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>😂 Teen Joke Generator 😂</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- PWA related meta and link -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#16213e">
 </head>
 <body>
   <main>
@@ -38,5 +41,19 @@
     </section>
   </main>
   <script src="app.js"></script>
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('Service Worker registered! Scope:', registration.scope);
+          })
+          .catch(err => {
+            console.log('Service Worker registration failed:', err);
+          });
+      });
+    }
+  </script>
 </body>
 </html>
