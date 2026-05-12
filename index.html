@@ -3,30 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coffee Recipes</title>
+  <title>😂 Teen Joke Generator 😂</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main>
-    <h1>Welcome to Coffee Recipes</h1>
-    <div class="content-wrapper">
-      <div id="coffee-list">
-        <h2>Explore Coffee Types</h2>
-        <ul id="coffee-names">
-          <li><a href="espresso.html">Espresso</a></li>
-          <li><a href="latte.html">Latte</a></li>
-          <li><a href="cappuccino.html">Cappuccino</a></li>
-          <li><a href="americano.html">Americano</a></li>
-          <li><a href="macchiato.html">Macchiato</a></li>
-          <li><a href="mocha.html">Mocha</a></li>
-        </ul>
-      </div>
-      <div id="welcome-message">
-        <h2>Discover Your Next Favorite Brew</h2>
-        <p>Explore a variety of classic coffee recipes, from the strong Espresso to the creamy Latte. Each page provides a detailed description and step-by-step instructions to help you master the art of coffee making at home.</p>
-        <p>Click on a coffee type from the list on the left to get started!</p>
-      </div>
+    <header>
+      <h1>😂 Teen Joke Generator 😂</h1>
+      <p class="subtitle">Jokes so good (or bad) they'll make your face do THIS 👇</p>
+    </header>
+
+    <section class="emoji-stage">
+      <div class="emoji-face" id="emojiFace">🤔</div>
+      <div class="emoji-label" id="emojiLabel">Ready for a joke?</div>
+    </section>
+
+    <section class="joke-box" id="jokeBox">
+      <p class="joke-setup" id="jokeSetup">Press the button to get a joke!</p>
+      <p class="joke-punchline hidden" id="jokePunchline"></p>
+    </section>
+
+    <div class="button-group">
+      <button class="btn btn-reveal" id="punchlineBtn" disabled>💡 Reveal Punchline</button>
+      <button class="btn btn-next" id="nextJokeBtn">➡️ Get a Joke!</button>
     </div>
+
+    <section class="reaction-row" id="reactionRow">
+      <span title="LOL!">😂</span>
+      <span title="Groaner!">😴</span>
+      <span title="That's fire!">🤩</span>
+      <span title="Mind blown!">🤯</span>
+      <span title="So bad...">😭</span>
+      <span title="Cringe!">😬</span>
+    </section>
   </main>
+  <script src="app.js"></script>
 </body>
 </html>
