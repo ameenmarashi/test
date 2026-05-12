@@ -23,11 +23,11 @@ const jokes = [
     setup: "What do you call a fake noodle?",
     punchline: "An IMPASTA!",
     emoji: "🙄",
-    label: "Ugh, really?"
+    label: "Ugh, really!"
   },
   {
     setup: "Why did the student eat his homework?",
-    punchline: "Because the teacher told him it was a piece of cake!",
+Rune: "Because the teacher told him it was a piece of cake!",
     emoji: "🤣",
     label: "Haha no way!"
   },
@@ -120,6 +120,126 @@ const jokes = [
     punchline: "To have sweet dreams!",
     emoji: "😊",
     label: "That's adorable!"
+  },
+  {
+    setup: "What do you call a boomerang that won't come back?",
+    punchline: "A stick!",
+    emoji: "🤣",
+    label: "Lost cause!"
+  },
+  {
+    setup: "Why are ghosts so bad at lying?",
+    punchline: "Because you can see right through them!",
+    emoji: "👻",
+    label: "Transparent truth!"
+  },
+  {
+    setup: "What do you call a sad strawberry?",
+    punchline: "A blueberry!",
+    emoji: "🍓",
+    label: "Berry sad!"
+  },
+  {
+    setup: "What do you call a lazy kangaroo?",
+    punchline: "Pouch potato!",
+    emoji: "🥔",
+    label: "Couch potato!"
+  },
+  {
+    setup: "Why did the coffee file a police report?",
+    punchline: "It got mugged!",
+    emoji: "☕",
+    label: "Mug life!"
+  },
+  {
+    setup: "What's a vampire's favorite fruit?",
+    punchline: "A neck-tarine!",
+    emoji: "🧛",
+    label: "Bloody good!"
+  },
+  {
+    setup: "Why don't secrets last long in a cornfield?",
+    punchline: "Because there are too many ears!",
+    emoji: "🌽",
+    label: "Corny but true!"
+  },
+  {
+    setup: "What do you call a bear that falls from the sky?",
+    punchline: "A raindrop bear!",
+    emoji: "☔",
+    label: "Bear-y wet!"
+  },
+  {
+    setup: "Why did the computer go to the doctor?",
+    punchline: "Because it had a virus!",
+    emoji: "💻",
+    label: "Sick byte!"
+  },
+  {
+    setup: "What's a robot's favorite type of music?",
+    punchline: "Heavy metal!",
+    emoji: "🤖",
+    label: "Rock on!"
+  },
+  {
+    setup: "Why did the tomato turn red?",
+    punchline: "Because it saw the salad dressing!",
+    emoji: "🍅",
+    label: "Blushing veggie!"
+  },
+  {
+    setup: "What do you call a fish wearing a bowtie?",
+    punchline: "Sofishticated!",
+    emoji: "🐠",
+    label: "Fancy fin!"
+  },
+  {
+    setup: "How do you make a tissue dance?",
+    punchline: "Put a little boogie in it!",
+    emoji: "🤧",
+    label: "Gesundheit!"
+  },
+  {
+    setup: "What's an alien's favorite part of a computer?",
+    punchline: "The space bar!",
+    emoji: "👽",
+    label: "Out of this world!"
+  },
+  {
+    setup: "Why did the cookie go to the hospital?",
+    punchline: "Because it felt crummy!",
+    emoji: "🍪",
+    label: "Sweet misery!"
+  },
+  {
+    setup: "What did one ocean say to the other ocean?",
+    punchline: "Nothing, they just waved!",
+    emoji: "🌊",
+    label: "Sea what I mean?"
+  },
+  {
+    setup: "Why can't you give a computer pizza?",
+    punchline: "Because it's a hard drive!",
+    emoji: "🍕",
+    label: "No bytes for you!"
+  },
+  {
+    setup: "What do you call a snowman with a six-pack?",
+    punchline: "An abdominal snowman!",
+    emoji: "☃️",
+    label: "Chilly gains!"
+  },
+  {
+    setup: "What do you call a group of musical whales?",
+    punchline: "An orca-stra!",
+    emoji: "🐳",
+    label: "Whale done!"
+  },
+  {
+    setup: "Why did the skeleton go to the party alone?",
+    punchline: "Because he had no body to go with him!",
+    emoji: "💀",
+    label: "Bone-ly!"
   }
 ];
 
